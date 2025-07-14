@@ -20,8 +20,8 @@ Ensure you have the following tools installed:
 1. **Clone the repository**:
 
    ```bash
-   git clone git@gitlab.com:fr_kata_sf/c4-SF-0274-SQ02.git
-   cd c4-SF-0274-SQ02
+   git clone https://github.com/AyoubTougui/nodejs_clean_architecture.git
+   cd nodejs_clean_architecture
    ```
 
 2. **Build docker images**

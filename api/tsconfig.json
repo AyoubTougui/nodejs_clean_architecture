@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS", // This makes TypeScript use CommonJS instead of ESM
+    "esModuleInterop": true, // Allows import/export compatibility
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "./dist",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@infrastructure/*": ["./src/infrastructure/*"],
+      "@domain/*": ["./src/domain/*"],
+      "@controllers/*": ["./src/application/controllers/*"],
+      "@middlewares/*": ["./src/application/middlewares/*"],
+      "@routes/*": ["./src/application/routes/*"],
+      "@config/*": ["./src/config/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  }
+}

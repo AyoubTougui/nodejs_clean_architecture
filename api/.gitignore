@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Debug
+.vscode/
+*.swp
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# npm package lock
+package-lock.json
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage folder for testing
+coverage/
